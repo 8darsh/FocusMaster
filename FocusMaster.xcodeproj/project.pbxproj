@@ -12,6 +12,9 @@
 		D27B6DB42BF7C44F00BE118C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27B6DB32BF7C44F00BE118C /* Assets.xcassets */; };
 		D27B6DB72BF7C44F00BE118C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27B6DB62BF7C44F00BE118C /* Preview Assets.xcassets */; };
 		D27B6DC02BF7D70600BE118C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B6DBF2BF7D70500BE118C /* TimerView.swift */; };
+		D27B6DC22BF8914400BE118C /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B6DC12BF8914400BE118C /* SoundManager.swift */; };
+		D27B6DC42BF8946500BE118C /* stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D27B6DC32BF8946500BE118C /* stop.mp3 */; };
+		D27B6DC62BF89EBE00BE118C /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B6DC52BF89EBE00BE118C /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		D27B6DB32BF7C44F00BE118C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27B6DB62BF7C44F00BE118C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D27B6DBF2BF7D70500BE118C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		D27B6DC12BF8914400BE118C /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		D27B6DC32BF8946500BE118C /* stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stop.mp3; sourceTree = "<group>"; };
+		D27B6DC52BF89EBE00BE118C /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				D27B6DBF2BF7D70500BE118C /* TimerView.swift */,
 				D27B6DB32BF7C44F00BE118C /* Assets.xcassets */,
 				D27B6DB52BF7C44F00BE118C /* Preview Content */,
+				D27B6DC12BF8914400BE118C /* SoundManager.swift */,
+				D27B6DC32BF8946500BE118C /* stop.mp3 */,
+				D27B6DC52BF89EBE00BE118C /* TaskView.swift */,
 			);
 			path = FocusMaster;
 			sourceTree = "<group>";
@@ -130,6 +139,7 @@
 			files = (
 				D27B6DB72BF7C44F00BE118C /* Preview Assets.xcassets in Resources */,
 				D27B6DB42BF7C44F00BE118C /* Assets.xcassets in Resources */,
+				D27B6DC42BF8946500BE118C /* stop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27B6DC02BF7D70600BE118C /* TimerView.swift in Sources */,
+				D27B6DC22BF8914400BE118C /* SoundManager.swift in Sources */,
 				D27B6DB22BF7C44D00BE118C /* ContentView.swift in Sources */,
+				D27B6DC62BF89EBE00BE118C /* TaskView.swift in Sources */,
 				D27B6DB02BF7C44D00BE118C /* FocusMasterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

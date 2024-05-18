@@ -10,10 +10,15 @@ import Combine
 struct ContentView: View {
     
     var body: some View{
-        HStack{
-            TimerView()
+        VStack{
+            HStack{
+                TimerView()
+                
+            }
+            
         }
     }
+    
         
     
 }
