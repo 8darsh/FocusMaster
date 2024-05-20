@@ -8,25 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		D27B6DB02BF7C44D00BE118C /* FocusMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B6DAF2BF7C44D00BE118C /* FocusMasterApp.swift */; };
-		D27B6DB22BF7C44D00BE118C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B6DB12BF7C44D00BE118C /* ContentView.swift */; };
 		D27B6DB42BF7C44F00BE118C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27B6DB32BF7C44F00BE118C /* Assets.xcassets */; };
 		D27B6DB72BF7C44F00BE118C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27B6DB62BF7C44F00BE118C /* Preview Assets.xcassets */; };
-		D27B6DC02BF7D70600BE118C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B6DBF2BF7D70500BE118C /* TimerView.swift */; };
-		D27B6DC22BF8914400BE118C /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B6DC12BF8914400BE118C /* SoundManager.swift */; };
 		D27B6DC42BF8946500BE118C /* stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D27B6DC32BF8946500BE118C /* stop.mp3 */; };
-		D27B6DC62BF89EBE00BE118C /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27B6DC52BF89EBE00BE118C /* TaskView.swift */; };
+		D2A7AB1A2BF94A7100E3E58A /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AB192BF94A7100E3E58A /* SoundManager.swift */; };
+		D2A7AB1F2BF94A8900E3E58A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AB1B2BF94A8900E3E58A /* ContentView.swift */; };
+		D2A7AB202BF94A8900E3E58A /* AddTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AB1C2BF94A8900E3E58A /* AddTasks.swift */; };
+		D2A7AB212BF94A8900E3E58A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AB1D2BF94A8900E3E58A /* TimerView.swift */; };
+		D2A7AB222BF94A8900E3E58A /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AB1E2BF94A8900E3E58A /* TaskView.swift */; };
+		D2BC906E2BFB290700D5FBD7 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC906D2BFB290700D5FBD7 /* TaskModel.swift */; };
+		D2BC90702BFB2E7100D5FBD7 /* TaskDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC906F2BFB2E7100D5FBD7 /* TaskDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D27B6DAC2BF7C44D00BE118C /* FocusMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27B6DAF2BF7C44D00BE118C /* FocusMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusMasterApp.swift; sourceTree = "<group>"; };
-		D27B6DB12BF7C44D00BE118C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D27B6DB32BF7C44F00BE118C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27B6DB62BF7C44F00BE118C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D27B6DBF2BF7D70500BE118C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		D27B6DC12BF8914400BE118C /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		D27B6DC32BF8946500BE118C /* stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stop.mp3; sourceTree = "<group>"; };
-		D27B6DC52BF89EBE00BE118C /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		D2A7AB192BF94A7100E3E58A /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		D2A7AB1B2BF94A8900E3E58A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2A7AB1C2BF94A8900E3E58A /* AddTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTasks.swift; sourceTree = "<group>"; };
+		D2A7AB1D2BF94A8900E3E58A /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		D2A7AB1E2BF94A8900E3E58A /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		D2BC906D2BFB290700D5FBD7 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		D2BC906F2BFB2E7100D5FBD7 /* TaskDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +66,13 @@
 			isa = PBXGroup;
 			children = (
 				D27B6DAF2BF7C44D00BE118C /* FocusMasterApp.swift */,
-				D27B6DB12BF7C44D00BE118C /* ContentView.swift */,
-				D27B6DBF2BF7D70500BE118C /* TimerView.swift */,
+				D2A7AB1B2BF94A8900E3E58A /* ContentView.swift */,
+				D2BC90722BFB3F2400D5FBD7 /* Views */,
+				D2BC90712BFB3EFF00D5FBD7 /* Task Model */,
+				D2BC90732BFB3FF700D5FBD7 /* Supporting Files */,
 				D27B6DB32BF7C44F00BE118C /* Assets.xcassets */,
 				D27B6DB52BF7C44F00BE118C /* Preview Content */,
-				D27B6DC12BF8914400BE118C /* SoundManager.swift */,
 				D27B6DC32BF8946500BE118C /* stop.mp3 */,
-				D27B6DC52BF89EBE00BE118C /* TaskView.swift */,
 			);
 			path = FocusMaster;
 			sourceTree = "<group>";
@@ -77,6 +83,33 @@
 				D27B6DB62BF7C44F00BE118C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2BC90712BFB3EFF00D5FBD7 /* Task Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC906D2BFB290700D5FBD7 /* TaskModel.swift */,
+			);
+			path = "Task Model";
+			sourceTree = "<group>";
+		};
+		D2BC90722BFB3F2400D5FBD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2A7AB1C2BF94A8900E3E58A /* AddTasks.swift */,
+				D2A7AB1E2BF94A8900E3E58A /* TaskView.swift */,
+				D2A7AB1D2BF94A8900E3E58A /* TimerView.swift */,
+				D2BC906F2BFB2E7100D5FBD7 /* TaskDetailScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2BC90732BFB3FF700D5FBD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2A7AB192BF94A7100E3E58A /* SoundManager.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,11 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27B6DC02BF7D70600BE118C /* TimerView.swift in Sources */,
-				D27B6DC22BF8914400BE118C /* SoundManager.swift in Sources */,
-				D27B6DB22BF7C44D00BE118C /* ContentView.swift in Sources */,
-				D27B6DC62BF89EBE00BE118C /* TaskView.swift in Sources */,
+				D2A7AB212BF94A8900E3E58A /* TimerView.swift in Sources */,
+				D2A7AB1F2BF94A8900E3E58A /* ContentView.swift in Sources */,
+				D2A7AB1A2BF94A7100E3E58A /* SoundManager.swift in Sources */,
 				D27B6DB02BF7C44D00BE118C /* FocusMasterApp.swift in Sources */,
+				D2A7AB222BF94A8900E3E58A /* TaskView.swift in Sources */,
+				D2A7AB202BF94A8900E3E58A /* AddTasks.swift in Sources */,
+				D2BC906E2BFB290700D5FBD7 /* TaskModel.swift in Sources */,
+				D2BC90702BFB2E7100D5FBD7 /* TaskDetailScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
