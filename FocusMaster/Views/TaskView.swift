@@ -47,7 +47,9 @@ struct TaskView: View {
                 }
             }
             .sheet(isPresented: $showSheet) {
-                AddTasks()
+                NavigationStack{
+                    AddTasks()
+                }
             }
         }
     }

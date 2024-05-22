@@ -19,10 +19,6 @@ struct AddTasks: View {
         
         NavigationStack {
             Form{
-                Text("Add Task")
-                    .font(.title3)
-                    .bold()
-                    .padding()
                 Section{
                     TextField("Title", text: $taskTitle)
                         .padding()

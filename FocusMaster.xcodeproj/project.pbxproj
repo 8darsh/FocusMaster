@@ -18,6 +18,8 @@
 		D2A7AB222BF94A8900E3E58A /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AB1E2BF94A8900E3E58A /* TaskView.swift */; };
 		D2BC906E2BFB290700D5FBD7 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC906D2BFB290700D5FBD7 /* TaskModel.swift */; };
 		D2BC90702BFB2E7100D5FBD7 /* TaskDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BC906F2BFB2E7100D5FBD7 /* TaskDetailScreen.swift */; };
+		D2C5ABA42BFE228D00817DD3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C5ABA32BFE228D00817DD3 /* SettingsView.swift */; };
+		D2C5ABA62BFE28A300817DD3 /* TimerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C5ABA52BFE28A300817DD3 /* TimerSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		D2A7AB1E2BF94A8900E3E58A /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		D2BC906D2BFB290700D5FBD7 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		D2BC906F2BFB2E7100D5FBD7 /* TaskDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailScreen.swift; sourceTree = "<group>"; };
+		D2C5ABA32BFE228D00817DD3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D2C5ABA52BFE28A300817DD3 /* TimerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSettings.swift; sourceTree = "<group>"; };
+		D2C5ABA72BFE570D00817DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 		D27B6DAE2BF7C44D00BE118C /* FocusMaster */ = {
 			isa = PBXGroup;
 			children = (
+				D2C5ABA72BFE570D00817DD3 /* Info.plist */,
 				D27B6DAF2BF7C44D00BE118C /* FocusMasterApp.swift */,
 				D2A7AB1B2BF94A8900E3E58A /* ContentView.swift */,
 				D2BC90722BFB3F2400D5FBD7 /* Views */,
@@ -100,6 +106,7 @@
 				D2A7AB1E2BF94A8900E3E58A /* TaskView.swift */,
 				D2A7AB1D2BF94A8900E3E58A /* TimerView.swift */,
 				D2BC906F2BFB2E7100D5FBD7 /* TaskDetailScreen.swift */,
+				D2C5ABA32BFE228D00817DD3 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				D2A7AB192BF94A7100E3E58A /* SoundManager.swift */,
+				D2C5ABA52BFE28A300817DD3 /* TimerSettings.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,9 +191,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C5ABA62BFE28A300817DD3 /* TimerSettings.swift in Sources */,
 				D2A7AB212BF94A8900E3E58A /* TimerView.swift in Sources */,
 				D2A7AB1F2BF94A8900E3E58A /* ContentView.swift in Sources */,
 				D2A7AB1A2BF94A7100E3E58A /* SoundManager.swift in Sources */,
+				D2C5ABA42BFE228D00817DD3 /* SettingsView.swift in Sources */,
 				D27B6DB02BF7C44D00BE118C /* FocusMasterApp.swift in Sources */,
 				D2A7AB222BF94A8900E3E58A /* TaskView.swift in Sources */,
 				D2A7AB202BF94A8900E3E58A /* AddTasks.swift in Sources */,
@@ -327,6 +337,7 @@
 				DEVELOPMENT_TEAM = 9P2DNH3C2B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusMaster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -356,6 +367,7 @@
 				DEVELOPMENT_TEAM = 9P2DNH3C2B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusMaster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

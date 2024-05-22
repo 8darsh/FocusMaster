@@ -7,30 +7,54 @@
 
 import SwiftUI
 import SwiftData
+import UserNotifications
 struct ContentView: View {
     @State private var isPresented: Bool = false
+    @State private var isPresentedSettings:Bool = false
     @Query private var tasks:[TaskModel]
+    @StateObject private  var settings = TimerSettings()
+
     var body: some View{
         NavigationStack{
             VStack{
-                TimerView()
+                TimerView(settings: settings)
+                
             }
-            .navigationDestination(isPresented: $isPresented){
-                TaskView(tasks: tasks)
-            }
-        }.navigationTitle("Focus Master")
             
-
+            
+            
             .toolbar{
                 ToolbarItem(placement: .bottomBar) {
-                    Button{
-                        isPresented = true
-                    }label: {
-                        Text("Tasks")
-                        Image(systemName: "list.bullet.rectangle")
+                    NavigationLink(destination: TaskView(tasks: tasks)) {
+                        Label("Tasks", systemImage: "list.bullet.rectangle")
+                    }
+                }
+                ToolbarItem(placement: .topBarTrailing){
+                    NavigationLink(destination: SettingsView(settings: settings)) {
+                        Image(systemName: "gear")
                     }
                 }
             }
+            
+        }.onAppear{
+            requestNotificationPermission()
+        }
+       
+    }
+    
+    func requestNotificationPermission(){
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.sound,.badge]) { granted, error in
+            if let error = error {
+                print("Error requesting notification permission: \(error.localizedDescription)")
+            }
+            if granted {
+                print("Notification permission granted")
+            } else {
+                print("Notification permission denied")
+            }
+        }
+        
+        UNUserNotificationCenter.current().delegate = NotificationDelegate.shared
     }
     
         
@@ -39,6 +63,7 @@ struct ContentView: View {
 
 #Preview {
     NavigationStack{
+
         ContentView()
     }
 }
