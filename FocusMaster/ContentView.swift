@@ -13,7 +13,7 @@ struct ContentView: View {
     @State private var isPresentedSettings:Bool = false
     @Query private var tasks:[TaskModel]
     @StateObject private  var settings = TimerSettings()
-
+    
     var body: some View{
         NavigationStack{
             VStack{
@@ -35,11 +35,10 @@ struct ContentView: View {
                     }
                 }
             }
-            
+            .preferredColorScheme(settings.modeUi ? .dark : .light)
         }.onAppear{
             requestNotificationPermission()
         }
-       
     }
     
     func requestNotificationPermission(){

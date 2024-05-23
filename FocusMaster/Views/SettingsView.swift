@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @ObservedObject var settings: TimerSettings
+    
     var body: some View {
         NavigationStack{
             List{
@@ -17,6 +18,13 @@ struct SettingsView: View {
                         Text("\(time)")
                     }
                 }.pickerStyle(.menu)
+                
+                Toggle(isOn: $settings.modeUi, label: {
+                    Text("Appearence")
+                    
+                })
+                
+                
                 
             }.padding(.top)
         }.navigationTitle("Settings")

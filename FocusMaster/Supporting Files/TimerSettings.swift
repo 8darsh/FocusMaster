@@ -9,4 +9,5 @@ import Foundation
 
 class TimerSettings: ObservableObject{
     @Published var focusTime: Int = 25
+    @Published var modeUi = false
 }
